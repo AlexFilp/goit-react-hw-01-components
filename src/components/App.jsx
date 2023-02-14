@@ -3,9 +3,9 @@ import data from './data';
 import friends from './friends';
 import transactions from './transactions';
 import { Profile } from './profile';
-import { Statistics } from './statistics';
-import { FriendList } from './friendList';
-import { TransactionHistory } from './transactionHistory';
+import { Statistics } from './stats';
+import { FriendList } from './friendsData';
+import { TransactionHistory } from './history';
 
 export const App = () => {
   return (
