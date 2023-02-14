@@ -1,4 +1,5 @@
 import PropTypes from 'prop-types';
+console.log('HELLO');
 
 export const TransactionHistory = ({ items }) => {
   return (
