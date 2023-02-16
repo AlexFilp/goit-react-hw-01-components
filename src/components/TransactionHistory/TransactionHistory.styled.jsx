@@ -24,11 +24,11 @@ export const Th = styled.th`
 export const TbodyTr = styled.tr`
   height: 80px;
 
-  &:nth-child(odd) {
+  &:nth-of-type(odd) {
     background-color: white;
   }
 
-  &:nth-child(even) {
+  &:nth-of-type(even) {
     background-color: lightcyan;
   }
 `;

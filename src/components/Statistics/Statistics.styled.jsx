@@ -40,7 +40,7 @@ export const Item = styled.li`
     border-bottom-right-radius: 10px;
   }
 
-  &:first-child {
+  &:first-of-type {
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
   }
