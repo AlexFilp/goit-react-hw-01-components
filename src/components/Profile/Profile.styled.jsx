@@ -1,41 +1,43 @@
-.profile {
+import styled from '@emotion/styled';
+
+export const Container = styled.div`
   width: 600px;
   height: 100%;
   padding-top: 15px;
   background-color: white;
   border-radius: 10px;
-}
+`;
 
-.description {
+export const Description = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   margin-bottom: 50px;
-}
+`;
 
-.avatar {
+export const Avatar = styled.img`
   border-radius: 50%;
   width: 250px;
   height: 250px;
-}
+`;
 
-.name {
+export const Name = styled.p`
   color: gray;
-}
 
-.name:not(:last-child) {
-  color: black;
-  font-weight: 700;
-  margin-bottom: 10px;
-}
+  &:not(:last-child) {
+    color: black;
+    font-weight: 700;
+    margin-bottom: 10px;
+  }
+`;
 
-.tag {
+export const Tag = styled.p`
   margin-bottom: 10px;
   color: gray;
-}
+`;
 
-.stats {
+export const Stats = styled.ul`
   display: flex;
   align-items: center;
   justify-content: center;
@@ -44,24 +46,24 @@
   background-color: antiquewhite;
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
-}
+`;
 
-.statsItem {
+export const StatsItem = styled.li`
   width: calc((100% - 15px) / 3);
   padding: 15px;
   display: flex;
   flex-direction: column;
   align-items: center;
-}
 
-.statsItem:not(:last-child) {
-  border-right: 1px solid gray;
-}
+  &:not(:last-child) {
+    border-right: 1px solid gray;
+  }
+`;
 
-.label {
+export const Label = styled.span`
   color: gray;
-}
+`;
 
-.quantity {
+export const Quantity = styled.span`
   font-weight: 700;
-}
+`;
