@@ -21,17 +21,17 @@ export const Avat = styled.img`
   height: 80px;
 `;
 
-export const Status = styled.span`
+export const Status = styled.div`
   width: 25px;
   height: 25px;
   border-radius: 50%;
-  background-color: ${getStatus};
+  background-color: ${({ isOnline }) => (isOnline ? 'green' : 'red')};
 `;
 
-function getStatus(props) {
-  if (props.isOnline) {
-    return 'green';
-  } else {
-    return 'red';
-  }
-}
+// function getStatus(props) {
+//   if (props.isOnline) {
+//     return 'green';
+//   } else {
+//     return 'red';
+//   }
+// }
